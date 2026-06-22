@@ -4,8 +4,6 @@ spring:
   profiles:
     activate:
       on-profile: prod
-  application:
-    name: account-service
   datasource:
     username: sa
     password:
