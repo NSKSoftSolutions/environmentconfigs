@@ -13,6 +13,11 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
         ddl-auto: update
+
+build:
+  artifact: account-service-prod
+  version: 1.0.0
+
 accounts:
   account-number: "98765"
   account-type: "Savings Account - PRODUCTION"
