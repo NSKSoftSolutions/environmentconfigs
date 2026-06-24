@@ -15,5 +15,5 @@ spring:
         ddl-auto: update
 accounts:
   accountNumber: 98765
-  accountType: Savings Account - PROD
+  accountType: Savings Account - PRODUCTION
   branchAddress: NallurHalli, Bangalore

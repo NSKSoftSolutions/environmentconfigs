@@ -15,7 +15,7 @@ spring:
         ddl-auto: update
 loans:
   loanAccountNumber: 12345
-  loanType: Home Loan - PROD
+  loanType: Home Loan - PRODUCTION
   loanAmount: 100000
   tenureInMonths: 120
   interestRate: 6.5
