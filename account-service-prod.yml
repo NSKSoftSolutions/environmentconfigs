@@ -17,3 +17,4 @@ accounts:
   accountNumber: 98765
   accountType: Savings Account - PRODUCTION
   branchAddress: NallurHalli, Bangalore
+  balance: 50000
