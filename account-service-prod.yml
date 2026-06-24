@@ -14,6 +14,6 @@ spring:
     hibernate:
         ddl-auto: update
 accounts:
-  accounts-account-number: "98765"
-  accounts-account-type: "Savings Account - PRODUCTION"
-  accounts-branch-address: "NallurHalli, Bangalore"
+  account-number: "98765"
+  account-type: "Savings Account - PRODUCTION"
+  branch-address: "NallurHalli, Bangalore"
