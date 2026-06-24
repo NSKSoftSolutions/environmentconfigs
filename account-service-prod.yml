@@ -19,6 +19,6 @@ build:
   version: 1.0.0
 
 accounts:
-  account-number: "98765"
-  account-type: "Savings Account - PRODUCTION"
-  branch-address: "NallurHalli, Bangalore"
+  account-number: 98765
+  account-type: Savings Account - PRODUCTION
+  branch-address: NallurHalli, Bangalore
