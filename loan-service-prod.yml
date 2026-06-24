@@ -14,8 +14,8 @@ spring:
     hibernate:
         ddl-auto: update
 loans:
-  loanAccountNumber: 12345
-  loanType: Home Loan - PRODUCTION
-  loanAmount: 100000
-  tenureInMonths: 120
-  interestRate: 6.5
+  loan-account-number: 12345
+  loan-type: Home Loan - PRODUCTION
+  loan-amount: 100000
+  tenure-in-months: 120
+  interest-rate: 6.5
