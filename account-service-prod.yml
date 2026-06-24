@@ -7,14 +7,14 @@ spring:
   datasource:
     username: sa
     password:
-    url: jdbc:mysql:localhost:3306/accountservices_prod
+    url: jdbc:mysql://localhost:3306/accountservices_prod
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
         ddl-auto: update
 accounts:
-  accountNumber: 98765
-  accountType: Savings Account - PRODUCTION
-  branchAddress: NallurHalli, Bangalore
-  balance: 50000
+  accountNumber: "98765"
+  accountType: "Savings Account - PRODUCTION"
+  branchAddress: "NallurHalli, Bangalore"
+  balance: 50000.00
