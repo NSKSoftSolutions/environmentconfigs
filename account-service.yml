@@ -1,6 +1,11 @@
 spring:
   application:
     name: account-service
+  datasource:
+    username: sa
+    password:
+    url: jdbc:mysql://localhost:3306/accountsdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   profiles:
     active: ${ACTIVE_PROFILE}
