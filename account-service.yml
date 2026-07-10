@@ -4,7 +4,7 @@ spring:
   datasource:
     username: sa
     password:
-    url: jdbc:mysql://localhost:3306/accountsdb
+    url: jdbc:mysql://localhost:3308/accountsdb
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   profiles:
