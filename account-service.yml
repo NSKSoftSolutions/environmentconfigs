@@ -6,6 +6,11 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3310/accountsdb
     driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
   profiles:
     active: ${ACTIVE_PROFILE}
