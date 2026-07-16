@@ -11,6 +11,8 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: update
+    show-sql: true
+
 
 build:
   artifact: account-service-prod
